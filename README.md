@@ -29,3 +29,11 @@ We use the modified version of [Fashion-MNIST](https://github.com/zalandoresearc
 - the transparancy of the added icon
 - the position of the icon
 - the size of the icon are 
+
+In addition to the modified Fashion-MNIST, we also synthetically generated the following variables.
+- covariates X
+- covariates X^V in images (causal inference estimators cannot access this variable)
+- treatment D
+- post-treatment variable P^V in images (causal inference estimators cannot access this variable)
+- modified Fashion-MNIST 
+- outcome Y
