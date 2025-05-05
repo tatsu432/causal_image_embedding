@@ -13,6 +13,9 @@ z_practice/
 # Ignore some of the images
 images/star.png
 images/heart.png
+src/images/star.png
+src/images/heart.png
 
 # Ignore the data FashionMNIST
 data/FashionMNIST/
+src/data/FashionMNIST/
