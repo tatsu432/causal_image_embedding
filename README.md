@@ -31,9 +31,9 @@ We use the modified version of [Fashion-MNIST](https://github.com/zalandoresearc
 - the size of the icon are 
 
 In addition to the modified Fashion-MNIST, we also synthetically generated the following variables.
-- covariates X
-- covariates X^V in images (causal inference estimators cannot access this variable)
-- treatment D
-- post-treatment variable P^V in images (causal inference estimators cannot access this variable)
-- modified Fashion-MNIST 
-- outcome Y
+- covariates X_i
+- covariates X_i^V in images (causal inference estimators cannot access this variable)
+- treatment D_i
+- post-treatment variable P_i^V in images (causal inference estimators cannot access this variable)
+- modified Fashion-MNIST V_i
+- outcome Y_i
